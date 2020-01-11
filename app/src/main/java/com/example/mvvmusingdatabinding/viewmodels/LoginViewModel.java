@@ -1,9 +1,9 @@
 package com.example.mvvmusingdatabinding.viewmodels;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
-import com.android.databinding.library.baseAdapters.BR;
-import com.journaldev.androidmvvmbasics.model.User;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
+
+import com.example.mvvmusingdatabinding.model.User;
 
 public class LoginViewModel extends BaseObservable {
     private User user;
@@ -24,7 +24,7 @@ public class LoginViewModel extends BaseObservable {
     private void setToastMessage(String toastMessage) {
 
         this.toastMessage = toastMessage;
-        notifyPropertyChanged(BR.toastMessage);
+        notifyPropertyChanged(com.example.mvvmusingdatabinding.BR.toastMessage);
     }
 
     public LoginViewModel() {
