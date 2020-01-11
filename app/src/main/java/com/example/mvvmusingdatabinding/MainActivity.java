@@ -9,9 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.BindingAdapter;
 import androidx.databinding.DataBindingUtil;
 
-import com.journaldev.androidmvvmbasics.databinding.ActivityMainBinding;
-import com.example.mvvmusingdatabinding.viewmodels;
-import com.example.mvvmusingdatabinding.model;
+import com.example.mvvmusingdatabinding.databinding.ActivityMainBinding;
+import com.example.mvvmusingdatabinding.viewmodels.LoginViewModel;
 
 
 public class MainActivity extends AppCompatActivity {
