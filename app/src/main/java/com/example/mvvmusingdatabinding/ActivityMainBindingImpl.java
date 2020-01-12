@@ -3,11 +3,12 @@ package com.example.mvvmusingdatabinding;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 
 class ActivityMainBindingImpl extends ViewDataBinding {
-    public ActivityMainBindingImpl(androidx.databinding.DataBindingComponent component, View view) {
-
+    public ActivityMainBindingImpl(androidx.databinding.DataBindingComponent dataBindingComponent, View view) {
+        super();
     }
 
     @Override
